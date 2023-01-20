@@ -18,7 +18,7 @@ RUN npm install
 COPY . .
 
 # Expose the port on which the app will run.
-EXPOSE 28000
+EXPOSE 80
 
 # Define the default command to run when the container starts.
 CMD ["npm", "start"]
